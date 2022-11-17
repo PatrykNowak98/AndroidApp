@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:name = ".activity_main">
 
     <Button
         android:id="@+id/button"
@@ -82,5 +83,4 @@
         app:layout_constraintTop_toTopOf="@+id/button2"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/nalesniki_z_dzemem_truskawkowym_121840" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

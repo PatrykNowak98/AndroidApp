@@ -25,6 +25,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".Pancakes"></activity>
+        <activity android:name=".Stew"></activity>
     </application>
 
 </manifest>

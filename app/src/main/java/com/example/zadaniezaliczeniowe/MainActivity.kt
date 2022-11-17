@@ -12,8 +12,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonOne = findViewById<Button>(R.id.button)
-        buttonOne.setOnClickListener{
-            val intent = Intent(this,Stew::class.java)
+        buttonOne.setOnClickListener()
+        {
+        intent = Intent(this,Stew::class.java)
+            startActivity(intent)
+        }
+
+        val buttonTwo = findViewById<Button>(R.id.button2)
+        buttonTwo.setOnClickListener()
+        {
+            intent = Intent(this,Pancakes::class.java)
             startActivity(intent)
         }
     }
