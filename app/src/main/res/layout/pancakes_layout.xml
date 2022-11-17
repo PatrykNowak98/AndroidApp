@@ -107,6 +107,7 @@
         android:text="Wsypać do miski 8 łyżek mąki, 1 łyżkę cukru i szczyptę soli. Dodać do tego jedno jajko oraz 500ml mleka. Wymieszać wszystko porządnie aby nie zostały grudki. Następnie rozgrzać patelnię z odrobiną oleju i smażyć do zarumienienia. Podawać z dżemem"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.67" />

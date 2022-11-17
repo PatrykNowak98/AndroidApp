@@ -97,6 +97,7 @@
         android:text="Mięso pokroić w kostkę na oko 2cm. Przyprawić w ulubionych przyprawach i odstawić do lodówki na minimum 2 godziny. Po tym czasie usmażyć lekko mięso na patelni aby zamknąć soki w środku. Zalać wodą patelnię i dusić mięso przez 1.5h co jakiś czas zaglądając i w razie potrzeby dolewając wody. Następnie nastawić wodę na kaszę. Po zagotowaniu się wody gotować kaszę przez 15 minut na średnim ogniu. W międzyczasie do mięsiwa dodać kostkę mięsną, zasmażkę, wymieszać. Podawać na głębokim talerzu."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.867" />
