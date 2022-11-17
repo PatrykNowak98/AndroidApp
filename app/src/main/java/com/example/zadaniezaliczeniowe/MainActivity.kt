@@ -1,6 +1,7 @@
 package com.example.zadaniezaliczeniowe
 
 import android.content.Intent
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -10,6 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        var mediaPlayer = MediaPlayer()
 
         val buttonOne = findViewById<Button>(R.id.button)
         buttonOne.setOnClickListener()
@@ -24,5 +27,6 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this,Pancakes::class.java)
             startActivity(intent)
         }
+
     }
 }

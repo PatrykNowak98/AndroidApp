@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/checkBox2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257" />
+        app:layout_constraintVertical_bias="0.257"/>
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -36,7 +36,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Babcine domowe naleśniki"
+            android:text="Gulasz mięsny z kaszą"
             android:textAlignment="center"
             android:textSize="24sp" />
     </LinearLayout>
@@ -48,7 +48,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:text="Mięso pokroić w kostkę na oko 2cm. Przyprawić w ulubionych przyprawach i odstawić do lodówki na minimum 2 godziny. Po tym czasie usmażyć lekko mięso na patelni aby zamknąć soki w środku. Zalać wodą patelnię i dusić mięso przez 1.5h co jakiś czas zaglądając i w razie potrzeby dolewając wody. Następnie nastawić wodę na kaszę. Po zagotowaniu się wody gotować kaszę przez 15 minut na średnim ogniu. W międzyczasie do mięsiwa dodać kostkę mięsną, zasmażkę, wymieszać. Podawać na głębokim talerzu."
+        android:text="Mięso pokroić w kostkę wielkości około 2 cm. Przyprawić w ulubionych przyprawach i odstawić do lodówki na minimum 2 godziny. Po tym czasie wyjąć mięso z lodówki, wrzucić na patelnię i lekko podsmażyć, aby zamknąć soki w środku. Do patelni dolać wody i dusić mięso przez 1,5 godziny, od czasu do czasu zaglądając, a w razie potrzeby - dolewając wody. Następnie wstawić wodę na kaszę. Po jej zagotowaniu, gotować kaszę przez 15 minut na średnim ogniu. W międzyczasie do mięsiwa dodać kostkę mięsną i przygotowaną zasmażkę (2 lub 3 łyżki masła, 1,5 łyżki mąki pszennej - smażone na małym ogniu do uzyskania konsystencji keczupu). Wszystko razem wymieszać. Podawać na głębokim talerzu."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -78,7 +78,8 @@
         app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.117"
+        />
 
     <CheckBox
         android:id="@+id/checkBox2"

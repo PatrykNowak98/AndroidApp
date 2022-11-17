@@ -29,7 +29,8 @@
         app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632" />
+        app:layout_constraintVertical_bias="0.632"
+        android:onClick = "playsound"/>
 
     <LinearLayout
         android:layout_width="409dp"
