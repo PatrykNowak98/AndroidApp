@@ -36,5 +36,12 @@ class MainActivity : AppCompatActivity() {
             intent.setData(Uri.parse("https://github.com/PatrykNowak98"))
             startActivity(intent)
         }
+        val buttonFive = findViewById<Button>(R.id.button5)
+        buttonFive.setOnClickListener()
+        {
+            intent = Intent(Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://github.com/Piasta"))
+            startActivity(intent)
+        }
     }
 }

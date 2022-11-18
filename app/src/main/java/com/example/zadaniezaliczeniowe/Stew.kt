@@ -20,9 +20,21 @@ class Stew : AppCompatActivity() {
 
 
         val buttonFour = findViewById<Button>(R.id.button4)
-        buttonFour.setOnClickListener(){
+        buttonFour.setOnClickListener() {
             intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+        }
+    }
+
+    fun submitData(view: View) {
+        val cb1 = findViewById<CheckBox>(R.id.checkBox1)
+        val cb2 = findViewById<CheckBox>(R.id.checkBox2)
+        val cb3 = findViewById<CheckBox>(R.id.checkBox3)
+        val cb4 = findViewById<CheckBox>(R.id.checkBox4)
+        val cb5 = findViewById<CheckBox>(R.id.checkBox5)
+
+        if (cb1.isChecked || cb2.isChecked || cb3.isChecked || cb4.isChecked || cb5.isChecked) {
+            Toast.makeText(applicationContext, "Produkt zakupiony", Toast.LENGTH_SHORT).show()
         }
     }
 }
