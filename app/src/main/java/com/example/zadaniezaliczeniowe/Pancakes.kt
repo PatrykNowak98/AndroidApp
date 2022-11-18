@@ -33,7 +33,7 @@ class Pancakes : AppCompatActivity() {
         if (cb6.isChecked || cb7.isChecked || cb8.isChecked || cb9.isChecked || cb10.isChecked ||
             cb11.isChecked
         ) {
-            Toast.makeText(applicationContext, "Produkt zakupiony", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Produkt posiadany", Toast.LENGTH_SHORT).show()
         }
 
     }
