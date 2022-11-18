@@ -7,6 +7,7 @@
     tools:context=".MainActivity"
     android:name = ".activity_main">
 
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -29,8 +30,7 @@
         app:layout_constraintHorizontal_bias="0.908"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632"
-        android:onClick = "playsound"/>
+        app:layout_constraintVertical_bias="0.632" />
 
     <LinearLayout
         android:layout_width="409dp"
@@ -84,4 +84,26 @@
         app:layout_constraintTop_toTopOf="@+id/button2"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/nalesniki_z_dzemem_truskawkowym_121840" />
+
+    <LinearLayout
+        android:layout_width="417dp"
+        android:layout_height="68dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundTint="#000000"
+            android:text="Github"
+            android:textColor="#000000"
+            android:backgroundTint="@color/white"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

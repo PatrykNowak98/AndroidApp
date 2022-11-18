@@ -2,6 +2,7 @@ package com.example.zadaniezaliczeniowe
 
 import android.content.Intent
 import android.media.MediaPlayer
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -28,5 +29,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val buttonSix = findViewById<Button>(R.id.button6)
+        buttonSix.setOnClickListener()
+        {
+            intent = Intent(Intent.ACTION_VIEW)
+            intent.setData(Uri.parse("https://github.com/PatrykNowak98"))
+            startActivity(intent)
+        }
     }
 }
