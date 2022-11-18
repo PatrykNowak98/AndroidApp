@@ -1,8 +1,8 @@
 # Księga domowych przepisów
 
 Aplikacja ta ma przedstawiać księgę przepisów. Kliknięcie przycisku obok zdjęcia dania powoduje przejście
-do części aplikacji zawierającej checkboxy z składnikami oraz 
-opisem przygotowania przepisu. Znajduje się tam również przycisk powrotu który
+do części aplikacji zawierającej checkboxy z składnikami po których zaznaczeniu pojawia się informacja
+o posiadaniu produktu oraz opisem przygotowania przepisu. Znajduje się tam również przycisk powrotu który
 umożliwia powrót do głównego menu przepisów.
 Aplikacja posiada również splash-screen który po 3 sekundach pomija i przechodzi do głównej aplikacji  
 ### Prototyp wyglądu:
