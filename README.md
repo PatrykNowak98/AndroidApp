@@ -10,5 +10,5 @@ Aplikacja posiada również splash-screen który po 3 sekundach pomija i przecho
 Nagranie aplikacji:
 
 
-https://user-images.githubusercontent.com/91824304/202813062-b4490b54-0ae8-4e44-b7fb-5611acb25cc5.mp4
+https://user-images.githubusercontent.com/91824304/202851653-cd935d91-4b6d-4e55-80da-e7999992bffb.mp4
 
