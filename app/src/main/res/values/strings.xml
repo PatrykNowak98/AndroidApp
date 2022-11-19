@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">ZadanieZaliczeniowe</string>
+    <string name ="app_name">ZadanieZaliczeniowe</string>
+    <string name ="button">Gulasz mięsny z kaszą</string>
+    <string name = "button2">Babcine domowe naleśniki</string>
+    <string name = "button3">Powrót</string>
+    <string name = "button4">Powrót</string>
+    <string name = "button5">Piotr Github</string>
+    <string name = "button6">Patryk Github</string>
+    <string name = "textView1">Gulasz mięsny z kaszą</string>
+    <string name = "textView2">Przepisy z domowej kuchnii</string>
+    <string name="textViewPancakes">Babcine domowe naleśniki</string>
+    <string name="editTextTextMultiLine2">Mięso pokroić w kostkę wielkości około 2 cm. Przyprawić w ulubionych przyprawach i odstawić do lodówki na minimum 2 godziny. Po tym czasie wyjąć mięso z lodówki, wrzucić na patelnię i lekko podsmażyć, aby zamknąć soki w środku. Do patelni dolać wody i dusić mięso przez 1,5 godziny, od czasu do czasu zaglądając, a w razie potrzeby - dolewając wody. Następnie wstawić wodę na kaszę. Po jej zagotowaniu, gotować kaszę przez 15 minut na średnim ogniu. W międzyczasie do mięsiwa dodać kostkę mięsną i przygotowaną zasmażkę (2 lub 3 łyżki masła, 1,5 łyżki mąki pszennej - smażone na małym ogniu do uzyskania konsystencji keczupu). Wszystko razem wymieszać. Podawać na głębokim talerzu.</string>
+    <string name="editTextTextMultiLine">Do miski wsypać: 8 łyżek mąki, 1 łyżkę cukru i szczyptę soli. Dodać jedno jajko oraz 500 ml mleka. Porządnie wymieszać składniki, do uzyskania jednolitej masy. Następnie rozgrzać patelnię, dodając odrobinę oleju. Smażyć do zarumienienia. Podawać z dżemem.</string>
+    <string name="checkBox">Szynkówka</string>
+    <string name="checkBox2">Przyprawy</string>
+    <string name="checkBox3">Zasmażka</string>
+    <string name="checkBox4">Kostka mięsna</string>
+    <string name="checkBox5">Kasza jęczmienna</string>
+    <string name="checkBox6">Mąka</string>
+    <string name="checkBox7">Cukier</string>
+    <string name="checkBox8">Sól</string>
+    <string name="checkBox9">Jajko</string>
+    <string name="checkBox10">Mleko</string>
+    <string name="checkBox11">Dżem</string>
+    <string name="splash">DOMOWE PRZEPISY</string>
 </resources>
