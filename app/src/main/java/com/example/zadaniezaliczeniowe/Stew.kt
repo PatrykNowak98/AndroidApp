@@ -12,11 +12,7 @@ class Stew : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.stew_layout)
-
-
-        val textChecked = "Produkt zakupiony"
-        val duration = Toast.LENGTH_SHORT
-        val toast = Toast.makeText(applicationContext, textChecked, duration)
+        
 
 
         val buttonFour = findViewById<Button>(R.id.button4)
